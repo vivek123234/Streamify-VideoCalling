@@ -38,7 +38,7 @@ const OnboardingPage = () => {
   };
 
   const handleRandomAvatar = () => {
-    const idx = Math.floor(Math.random() * 100) + 1; // 1-100 included
+    const idx = Math.floor(Math.random() * 5) + 1; // 1-5 included
     const randomAvatar = `https://www.loremfaces.net/256/id/${idx}.jpg`;
 
     setFormState({ ...formState, profilePic: randomAvatar });
